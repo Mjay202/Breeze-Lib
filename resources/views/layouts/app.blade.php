@@ -30,8 +30,8 @@
         
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{asset('images/fav-icon.png')}}">
+        {{-- <link rel="icon" type="{{asset('images/fav-icon')}}" sizes="16x16" href="{{asset('images/fav-icon')}}"> --}}
         <link rel="manifest" href="/site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
@@ -51,9 +51,9 @@
         <header class="fixed w-full">
             <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
                 <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-                    <a href="#" class="flex items-center">
-                        <img src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Landwind</span>
+                    <a href="/" class="flex items-center">
+                        <img src="{{asset('images/breeze-lib.png')}}" class="h-6 mr-3 sm:h-9" alt="Breeze Library Logo" />
+                        {{-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Breeze Library</span> --}}
                     </a>
                     <button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex">
                         <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
@@ -192,11 +192,11 @@
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
                 <div class="text-center">
-                    <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                        <img src="./images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                        Landwind    
+                    <a href="#" class="flex items-center justify-center mb-5 text-sm font-semibold text-gray-900 dark:text-white">
+                        <img src="{{asset('images/breeze-lib.png')}}" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                        Library   
                     </a>
-                    <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" class="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                    <span class="block text-sm text-center text-gray-500 dark:text-gray-400">© 2024 Jayxin™. All Rights Reserved. Built with <a href="https://laravel.com" class="text-orange-600 hover:underline dark:text-purple-500">Laravel</a>, <a href="https://tailwindcss.com" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a> and <a href="https://themesberg.com/product/tailwind-css/landing-page" class="text-purple-600 hover:underline dark:text-purple-500">Landwind-UI</a>.
                     </span>
                     <ul class="flex justify-center mt-5 space-x-5">
                         <li>
