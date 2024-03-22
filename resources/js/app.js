@@ -1,5 +1,6 @@
 import './bootstrap';
 import "flowbite";
+
 import './toggler';
 
 import Alpine from 'alpinejs';
